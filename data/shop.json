@@ -1,0 +1,32 @@
+{
+  "shop": "Kemi's Corner Shop",
+  "currency": "NGN",
+  "products": [
+    { "sku": "RICE-5KG", "name": "Ofada Rice, 5 kg", "unitPrice": 18500, "stock": 7, "salesLast14Days": 35, "reorderDays": 7 },
+    { "sku": "OIL-1L", "name": "Vegetable Oil, 1 L", "unitPrice": 4200, "stock": 26, "salesLast14Days": 28, "reorderDays": 7 },
+    { "sku": "NOODLE-CTN", "name": "Instant Noodles, carton", "unitPrice": 12800, "stock": 4, "salesLast14Days": 42, "reorderDays": 7 },
+    { "sku": "SOAP-6PK", "name": "Laundry Soap, 6 pack", "unitPrice": 5600, "stock": 18, "salesLast14Days": 14, "reorderDays": 7 },
+    { "sku": "MILK-400G", "name": "Powdered Milk, 400 g", "unitPrice": 8900, "stock": 9, "salesLast14Days": 21, "reorderDays": 7 }
+  ],
+  "suppliers": [
+    { "name": "Lagos Value Distributors", "city": "Lagos", "offers": [
+      { "sku": "RICE-5KG", "price": 17200, "availability": 30, "deliveryDays": 2 },
+      { "sku": "OIL-1L", "price": 3900, "availability": 40, "deliveryDays": 2 },
+      { "sku": "NOODLE-CTN", "price": 11900, "availability": 20, "deliveryDays": 2 },
+      { "sku": "SOAP-6PK", "price": 5100, "availability": 15, "deliveryDays": 3 },
+      { "sku": "MILK-400G", "price": 8400, "availability": 18, "deliveryDays": 2 }
+    ]},
+    { "name": "Ogun Fresh Supply", "city": "Abeokuta", "offers": [
+      { "sku": "RICE-5KG", "price": 16800, "availability": 12, "deliveryDays": 4 },
+      { "sku": "OIL-1L", "price": 4000, "availability": 30, "deliveryDays": 3 },
+      { "sku": "NOODLE-CTN", "price": 12200, "availability": 25, "deliveryDays": 4 },
+      { "sku": "MILK-400G", "price": 8200, "availability": 10, "deliveryDays": 5 }
+    ]},
+    { "name": "Kaduna Bulk Mart", "city": "Kaduna", "offers": [
+      { "sku": "RICE-5KG", "price": 16500, "availability": 50, "deliveryDays": 8 },
+      { "sku": "NOODLE-CTN", "price": 11500, "availability": 35, "deliveryDays": 7 },
+      { "sku": "SOAP-6PK", "price": 4800, "availability": 60, "deliveryDays": 9 },
+      { "sku": "MILK-400G", "price": 7900, "availability": 40, "deliveryDays": 8 }
+    ]}
+  ]
+}
